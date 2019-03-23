@@ -107,12 +107,12 @@ int FonkMax(Obj best[], int *bag)
 
 int main()
 {
-    int n, pow=1;
+    int n, pow=2;
     cout<<"Knapsack problemi\n";
     cout<<"Toplam nesne sayisini giriniz : ";
     cin>>n;
     for(int i=0;i<n;i++){
-        pow*=n;
+        pow*=2;
     }
     best=new Obj[pow];
     cout<<endl;
