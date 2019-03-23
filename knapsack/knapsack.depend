@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536238204 source:d:\users\cheytac\documents\codeblocks\knapsack\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+
